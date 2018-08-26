@@ -1,0 +1,21 @@
+{
+  "user": {
+    "attributes": {
+      "bdate": {
+        "appearance": ""
+      },
+      "blocked": {
+        "appearance": ""
+      },
+      "firstName": {
+        "appearance": ""
+      },
+      "lastName": {
+        "appearance": ""
+      },
+      "phone": {
+        "appearance": ""
+      }
+    }
+  }
+}

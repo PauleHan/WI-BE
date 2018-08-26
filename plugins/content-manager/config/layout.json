@@ -1,0 +1,60 @@
+{
+  "locations": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "articletypes": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "articles": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      },
+      "preview": {
+        "appearance": ""
+      },
+      "body": {
+        "appearance": "WYSIWYG"
+      },
+      "tags": {
+        "appearance": ""
+      },
+      "likes": {
+        "appearance": ""
+      },
+      "dislikes": {
+        "appearance": ""
+      },
+      "permlink": {
+        "appearance": ""
+      }
+    }
+  },
+  "comments": {
+    "attributes": {
+      "body": {
+        "appearance": ""
+      },
+      "likes": {
+        "appearance": ""
+      },
+      "dislikes": {
+        "appearance": ""
+      },
+      "name": {
+        "appearance": ""
+      },
+      "email": {
+        "appearance": ""
+      }
+    }
+  }
+}

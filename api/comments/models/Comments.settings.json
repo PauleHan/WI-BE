@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "comments",
+  "info": {
+    "name": "comments",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "body": {
+      "type": "text"
+    },
+    "likes": {
+      "type": "integer"
+    },
+    "dislikes": {
+      "type": "integer"
+    },
+    "articles": {
+      "model": "articles",
+      "via": "comments"
+    },
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}
