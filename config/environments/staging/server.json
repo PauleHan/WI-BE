@@ -1,6 +1,6 @@
 {
   "host": "localhost",
-  "port": 8082,
+  "port": 80,
   "autoReload": {
     "enabled": false
   },
