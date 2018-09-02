@@ -1,6 +1,6 @@
 {
-  "host": "localhost",
-  "port": "${process.env.PORT || 8082}",
+  "host": "wiki-test-api.herokuapp.com",
+  "port": 80,
   "autoReload": {
     "enabled": false
   },
