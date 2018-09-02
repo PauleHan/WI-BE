@@ -1,5 +1,5 @@
 {
-  "host": "wiki-test-api.herokuapp.com",
+  "host": "localhost",
   "port": 80,
   "autoReload": {
     "enabled": false
