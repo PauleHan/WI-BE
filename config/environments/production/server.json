@@ -1,6 +1,6 @@
 {
   "host": "localhost",
-  "port": 80,
+  "port": "${process.env.PORT || 8082}",
   "autoReload": {
     "enabled": false
   },
