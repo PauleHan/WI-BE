@@ -37,7 +37,7 @@
       "dominant": true
     },
     "user": {
-      "model": "user",
+      "collection": "user",
       "via": "articles",
       "dominant": true,
       "plugin": "users-permissions"
@@ -50,11 +50,13 @@
     },
     "comments": {
       "collection": "comments",
-      "via": "articles",
-      "dominant": true
+      "via": "articles"
     },
     "permlink": {
       "type": "string"
+    },
+    "crowd": {
+      "type": "boolean"
     }
   }
 }

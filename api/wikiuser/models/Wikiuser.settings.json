@@ -1,0 +1,66 @@
+{
+  "connection": "default",
+  "collectionName": "wikiuser",
+  "info": {
+    "name": "wikiuser",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "dd": {
+      "type": "string"
+    },
+    "mm": {
+      "type": "string"
+    },
+    "yyyy": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "orbit": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "photourl": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "trelloKey": {
+      "type": "string"
+    },
+    "trelloBoard": {
+      "type": "string"
+    },
+    "trelloBoardUrl": {
+      "type": "string"
+    },
+    "hard_disclaimer": {
+      "type": "boolean"
+    },
+    "test": {
+      "type": "string"
+    }
+  }
+}

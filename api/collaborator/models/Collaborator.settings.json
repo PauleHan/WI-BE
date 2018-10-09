@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "requesters",
+  "info": {
+    "name": "collaborator",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "author": {
+      "type": "string"
+    },
+    "permlink": {
+      "type": "string"
+    },
+    "requester": {
+      "type": "string"
+    },
+    "trello_board": {
+      "type": "string"
+    },
+    "status": {
+      "type": "boolean"
+    }
+  }
+}

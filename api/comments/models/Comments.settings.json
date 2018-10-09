@@ -27,6 +27,12 @@
     },
     "email": {
       "type": "string"
+    },
+    "user": {
+      "collection": "user",
+      "via": "comments",
+      "dominant": true,
+      "plugin": "users-permissions"
     }
   }
 }

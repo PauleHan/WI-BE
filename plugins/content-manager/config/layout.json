@@ -35,6 +35,9 @@
       },
       "permlink": {
         "appearance": ""
+      },
+      "crowd": {
+        "appearance": ""
       }
     }
   },
@@ -53,6 +56,112 @@
         "appearance": ""
       },
       "email": {
+        "appearance": ""
+      }
+    }
+  },
+  "wikiuser": {
+    "attributes": {
+      "username": {
+        "appearance": ""
+      },
+      "firstname": {
+        "appearance": ""
+      },
+      "lastname": {
+        "appearance": ""
+      },
+      "dd": {
+        "appearance": ""
+      },
+      "mm": {
+        "appearance": ""
+      },
+      "yyyy": {
+        "appearance": ""
+      },
+      "password": {
+        "appearance": ""
+      },
+      "orbit": {
+        "appearance": ""
+      },
+      "city": {
+        "appearance": ""
+      },
+      "phone": {
+        "appearance": ""
+      },
+      "email": {
+        "appearance": ""
+      },
+      "trelloKey": {
+        "appearance": ""
+      },
+      "trelloBoard": {
+        "appearance": ""
+      },
+      "trelloBoardUrl": {
+        "appearance": ""
+      },
+      "hard_disclaimer": {
+        "appearance": ""
+      },
+      "test": {
+        "appearance": ""
+      }
+    }
+  },
+  "investigation": {
+    "attributes": {
+      "permlink": {
+        "appearance": ""
+      },
+      "author": {
+        "appearance": ""
+      },
+      "category": {
+        "appearance": ""
+      },
+      "title": {
+        "appearance": ""
+      }
+    }
+  },
+  "crowd": {
+    "attributes": {
+      "permlink": {
+        "appearance": ""
+      },
+      "author": {
+        "appearance": ""
+      },
+      "category": {
+        "appearance": ""
+      },
+      "title": {
+        "appearance": ""
+      },
+      "color": {
+        "appearance": ""
+      }
+    }
+  },
+  "requesters": {
+    "attributes": {
+      "author": {
+        "appearance": ""
+      },
+      "permlink": {
+        "appearance": ""
+      },
+      "requester": {
+        "appearance": ""
+      },
+      "trello_board": {
+        "appearance": ""
+      },
+      "status": {
         "appearance": ""
       }
     }

@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "investigation",
+  "info": {
+    "name": "investigation",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "permlink": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "crowds": {
+      "collection": "crowd",
+      "via": "investigation"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

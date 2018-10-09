@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/articles",
-      "handler": "Articles.find",
+      "path": "/wikiuser",
+      "handler": "Wikiuser.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/articles/count",
-      "handler": "Articles.count",
+      "path": "/wikiuser/count",
+      "handler": "Wikiuser.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/articles/:_id",
-      "handler": "Articles.findOne",
+      "path": "/wikiuser/:_id",
+      "handler": "Wikiuser.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/articles",
-      "handler": "Articles.create",
+      "path": "/wikiuser",
+      "handler": "Wikiuser.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/articles/:_id",
-      "handler": "Articles.update",
+      "path": "/wikiuser/:_id",
+      "handler": "Wikiuser.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/articles/:_id",
-      "handler": "Articles.destroy",
+      "path": "/wikiuser/:_id",
+      "handler": "Wikiuser.destroy",
       "config": {
         "policies": []
       }
