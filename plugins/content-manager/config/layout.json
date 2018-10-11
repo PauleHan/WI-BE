@@ -165,5 +165,15 @@
         "appearance": ""
       }
     }
+  },
+  "test": {
+    "attributes": {
+      "teststring": {
+        "appearance": ""
+      },
+      "testfield": {
+        "appearance": ""
+      }
+    }
   }
 }

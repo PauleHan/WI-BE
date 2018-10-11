@@ -1,0 +1,16 @@
+{
+  "connection": "default",
+  "collectionName": "test",
+  "info": {
+    "name": "test",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "teststring": {
+      "type": "string"
+    }
+  }
+}
