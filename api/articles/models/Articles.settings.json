@@ -36,12 +36,6 @@
       "via": "articles",
       "dominant": true
     },
-    "user": {
-      "collection": "user",
-      "via": "articles",
-      "dominant": true,
-      "plugin": "users-permissions"
-    },
     "likes": {
       "type": "integer"
     },

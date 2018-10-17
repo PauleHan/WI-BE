@@ -53,10 +53,6 @@
     "phone": {
       "type": "string"
     },
-    "articles": {
-      "collection": "articles",
-      "via": "user"
-    },
     "keyMemo": {
       "type": "string"
     },
@@ -68,10 +64,6 @@
     },
     "keyActive": {
       "type": "string"
-    },
-    "comments": {
-      "collection": "comments",
-      "via": "user"
     }
   },
   "collectionName": "users-permissions_user"
