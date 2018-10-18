@@ -1,5 +1,5 @@
 {
-  "host": "localhost",
+  "host": "https://wiki-investigation-paulehan.c9users.io",
   "port": "${process.env.PORT || 8082}",
   "autoReload": {
     "enabled": false
