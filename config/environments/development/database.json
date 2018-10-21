@@ -5,6 +5,7 @@
       "connector": "strapi-hook-mongoose",
       "settings": {
         "client": "mongo",
+        "uri": "mongodb://wiki-dev:PhanT0m@ds229562-a0.mlab.com:29562,ds229562-a1.mlab.com:29562/wiki-strapi?replicaSet=rs-ds229562",
         "host": "ds229562-a0.mlab.com",
         "port": 29562,
         "database": "wiki-strapi",

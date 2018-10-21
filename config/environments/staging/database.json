@@ -5,12 +5,12 @@
       "connector": "strapi-hook-mongoose",
       "settings": {
         "client": "mongo",
-        "uri": "${process.env.DATABASE_URI || ''}",
-        "host": "${process.env.DATABASE_HOST || '127.0.0.1'}",
-        "port": "${process.env.DATABASE_PORT || 27017}",
-        "database": "${process.env.DATABASE_NAME || 'strapi-staging'}",
-        "username": "${process.env.DATABASE_USERNAME || ''}",
-        "password": "${process.env.DATABASE_PASSWORD || ''}"
+        "uri": "${process.env.DATABASE_URI || 'mongodb://wiki-dev:PhanT0m@ds229562-a0.mlab.com:29562,ds229562-a1.mlab.com:29562/wiki-strapi?replicaSet=rs-ds229562'}",
+        "host": "${process.env.DATABASE_HOST || 'ds229562-a0.mlab.com'}",
+        "port": "${process.env.DATABASE_PORT || 29562}",
+        "database": "${process.env.DATABASE_NAME || 'wiki-strapi'}",
+        "username": "${process.env.DATABASE_USERNAME || 'wiki-staging'}",
+        "password": "${process.env.DATABASE_PASSWORD || '95uDxgiFJmXPpEK'}"
       },
       "options": {
         "ssl": "${process.env.DATABASE_SSL || false}",
