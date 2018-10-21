@@ -173,6 +173,9 @@
       },
       "testfield": {
         "appearance": ""
+      },
+      "test2": {
+        "appearance": ""
       }
     }
   }
