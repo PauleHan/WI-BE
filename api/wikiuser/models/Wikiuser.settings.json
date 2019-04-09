@@ -27,9 +27,6 @@
     "yyyy": {
       "type": "string"
     },
-    "password": {
-      "type": "string"
-    },
     "orbit": {
       "type": "string"
     },

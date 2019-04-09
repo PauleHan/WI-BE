@@ -38,6 +38,12 @@
       },
       "crowd": {
         "appearance": ""
+      },
+      "author": {
+        "appearance": ""
+      },
+      "blocked": {
+        "appearance": ""
       }
     }
   },

@@ -18,10 +18,6 @@
     "dislikes": {
       "type": "integer"
     },
-    "articles": {
-      "model": "articles",
-      "via": "comments"
-    },
     "name": {
       "type": "string"
     },

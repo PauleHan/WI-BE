@@ -9,47 +9,13 @@
     "timestamps": true
   },
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "media": {
-      "model": "file",
-      "via": "related",
-      "plugin": "upload"
-    },
-    "preview": {
-      "type": "text"
-    },
-    "body": {
-      "type": "text"
-    },
-    "tags": {
-      "type": "json"
-    },
-    "locations": {
-      "model": "locations",
-      "via": "articles",
-      "dominant": true
-    },
-    "articletypes": {
-      "model": "articletypes",
-      "via": "articles",
-      "dominant": true
-    },
-    "likes": {
-      "type": "integer"
-    },
-    "dislikes": {
-      "type": "integer"
-    },
-    "comments": {
-      "collection": "comments",
-      "via": "articles"
-    },
     "permlink": {
       "type": "string"
     },
-    "crowd": {
+    "author": {
+      "type": "string"
+    },
+    "blocked": {
       "type": "boolean"
     }
   }
